@@ -1,0 +1,25 @@
+.content {
+  color: $primary-text; //landing page 
+  &.landing {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15%;
+    .headings {
+      grid-column: 2
+    }
+  }
+}
+
+.lg-heading {
+  font-size: 80px;
+  margin: 5px 0;
+  &.indent {
+    padding-left: 60px;
+  }
+}
+
+.secondary-text {
+  color: $secondary-text;
+}
