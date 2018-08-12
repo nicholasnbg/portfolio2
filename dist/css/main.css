@@ -7,7 +7,8 @@
   align-items: center;
   grid-column: 1 / span 1;
   background: #4c4c4c;
-  color: white; }
+  color: white;
+  font-weight: 400; }
   .nav .nav-links,
   .nav .social-links {
     list-style: none;
@@ -24,9 +25,10 @@
       color: white;
       text-decoration: none; }
   .nav .nav-links .nav-item {
-    padding: 1rem 0; }
+    padding: 1rem 0;
+    margin-bottom: 1rem; }
   .nav .social-links .nav-item {
-    padding: 0.5rem 0; }
+    padding: 0.3rem 0; }
 
 .content {
   color: white; }
@@ -48,6 +50,20 @@
 .secondary-text {
   color: #F8FD21; }
 
+.landing .headings h2 {
+  font-weight: 500;
+  border-left: 3px solid white;
+  margin-left: 2rem;
+  padding-left: 0.3rem;
+  margin-bottom: 0.3rem; }
+
+.landing .headings h3 {
+  font-weight: 500;
+  padding-left: 6rem;
+  margin-top: 0.3rem; }
+  .landing .headings h3 .bold {
+    font-weight: 800; }
+
 * {
   box-sizing: border-box; }
 
@@ -65,3 +81,6 @@ body {
   height: 100%; }
   .content.landing {
     background: #26A4FF; }
+
+.blue-text {
+  color: #0635DE; }

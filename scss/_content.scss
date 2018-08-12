@@ -23,3 +23,24 @@
 .secondary-text {
   color: $secondary-text;
 }
+
+.landing {
+  .headings {
+    h2 {
+      font-weight: 500;
+      border-left: 3px solid white;
+      margin-left: 2rem;
+      padding-left: 0.3rem;
+      margin-bottom: 0.3rem;
+      ;
+    }
+    h3 {
+      font-weight: 500;
+      padding-left: 6rem;
+      margin-top: 0.3rem;
+      .bold {
+        font-weight: 800;
+      }
+    }
+  }
+}

@@ -7,6 +7,7 @@
   grid-column: 1 / span 1;
   background: #4c4c4c;
   color: white;
+  font-weight: 400;
   .nav-links,
   .social-links {
     list-style: none;
@@ -26,11 +27,12 @@
   .nav-links {
     .nav-item {
       padding: 1rem 0;
+      margin-bottom: 1rem;
     }
   }
   .social-links {
     .nav-item {
-      padding: 0.5rem 0;
+      padding: 0.3rem 0;
     }
   }
 }
