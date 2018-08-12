@@ -1,14 +1,11 @@
 .content {
-  color: $primary-text; //landing page 
+  color: $primary-text;
+  height: 100%;
+  padding: 3% 10%;
   &.landing {
     display: flex;
-    height: 100%;
     flex-direction: column;
     justify-content: center;
-    padding-left: 15%;
-    .headings {
-      grid-column: 2
-    }
   }
 }
 
@@ -22,6 +19,10 @@
 
 .secondary-text {
   color: $secondary-text;
+}
+
+.light-blue {
+  color: $light-blue;
 }
 
 .landing {
@@ -41,6 +42,73 @@
       .bold {
         font-weight: 800;
       }
+    }
+  }
+}
+
+.about {
+  h1 {
+    margin-bottom: 0.3rem;
+    ;
+  }
+  h3 {
+    padding-left: 10rem;
+    font-weight: 500;
+    margin-top: 0;
+  }
+  .about-images {
+    display: flex;
+    flex-direction: column;
+    .row {
+      display: flex;
+      &:nth-child(1) {
+        justify-content: center;
+        .hex-container {
+          &:nth-child(1) {
+            margin-right: -4px
+          }
+          &:nth-child(2) {
+            margin: 0 96px;
+          }
+          &:nth-child(3) {
+            margin-left: -4px;
+          }
+        }
+      }
+      &:nth-child(2) {
+        justify-content: center;
+        margin-top: -104px;
+        .hex-container {
+          &:nth-child(1) {
+            margin-right: 46px;
+          }
+          &:nth-child(2) {
+            margin-left: 46px;
+          }
+        }
+      }
+    }
+    .hex-container {
+      width: 200px;
+      height: 200px;
+      background: $light-blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+      clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    }
+    img {
+      -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+      clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    }
+  }
+  .lines {
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+    span {
+      margin: 0 250px;
     }
   }
 }

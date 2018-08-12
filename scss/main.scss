@@ -10,12 +10,12 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    height: 100vh;
+    min-height: auto;
 }
 
 .container {
     display: grid;
-    height: 100%;
+    min-height: 100vh;
     grid-template-columns: 85px 1fr;
 }
 
@@ -23,6 +23,9 @@ body {
     height: 100%;
     &.landing {
         background: #26A4FF;
+    }
+    &.about {
+        background: $yellow;
     }
 }
 
