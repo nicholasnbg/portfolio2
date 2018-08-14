@@ -153,4 +153,26 @@
       margin-top: 220px;
     }
   }
+  .coding-content {
+    margin-top: 50px;
+    h1 {
+      text-align: center;
+    }
+    p {
+      padding: 0 10%;
+      font-size: 1.3rem;
+      line-height: 2rem;
+    }
+  }
+  .code-icons {
+    i {
+      font-size: 100px;
+      color: $blue-text;
+    }
+    img {
+      height: 90px;
+      color: white;
+      width: 90px;
+    }
+  }
 }

@@ -147,6 +147,24 @@
     text-align: center;
     margin-top: 220px; }
 
+.about .coding-content {
+  margin-top: 50px; }
+  .about .coding-content h1 {
+    text-align: center; }
+  .about .coding-content p {
+    padding: 0 10%;
+    font-size: 1.3rem;
+    line-height: 2rem; }
+
+.about .code-icons i {
+  font-size: 100px;
+  color: #0635DE; }
+
+.about .code-icons img {
+  height: 90px;
+  color: white;
+  width: 90px; }
+
 * {
   box-sizing: border-box; }
 
