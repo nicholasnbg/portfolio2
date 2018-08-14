@@ -51,6 +51,9 @@
 .light-blue {
   color: #26A4FF; }
 
+.blue-text {
+  color: #0635DE; }
+
 .landing .headings h2 {
   font-weight: 500;
   border-left: 3px solid white;
@@ -93,6 +96,9 @@
         margin-right: 46px; }
       .about .about-images .row:nth-child(2) .hex-container:nth-child(2) {
         margin-left: 46px; }
+    .about .about-images .row img {
+      height: 190px;
+      width: 190px; }
   .about .about-images .hex-container {
     width: 200px;
     height: 200px;
@@ -109,9 +115,37 @@
 .about .lines {
   display: flex;
   justify-content: center;
-  margin-top: -80px; }
+  margin-top: -80px;
+  height: 140px; }
   .about .lines span {
     margin: 0 250px; }
+
+.about .about-sides {
+  display: flex;
+  width: 100%;
+  justify-content: space-between; }
+  .about .about-sides h2 {
+    border-left: 3px solid #0635DE;
+    padding-left: 5px;
+    text-transform: uppercase;
+    font-weight: 800; }
+  .about .about-sides .about-side {
+    width: 33%; }
+    .about .about-sides .about-side:nth-child(1) {
+      padding-left: 8%; }
+    .about .about-sides .about-side:nth-child(3) {
+      padding-right: 8%; }
+    .about .about-sides .about-side p {
+      padding-left: 10px;
+      text-align: justify;
+      line-height: 2.25rem;
+      font-weight: 600; }
+  .about .about-sides .about-mid {
+    widows: 33%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 220px; }
 
 * {
   box-sizing: border-box; }
